@@ -1,0 +1,45 @@
+
+.root {
+    -fx-background-color: #f0f0f0;
+}
+
+.thumbnail {
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0, 0, 0);
+    -fx-transition: transform 0.2s;
+}
+
+
+.thumbnail:hover {
+    -fx-border-color: blue;
+    -fx-scale-x: 1.25;
+    -fx-scale-y: 1.25;
+}
+.full-size-view {
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px;
+}
+
+
+.text-white {
+    -fx-fill: white;
+}
+
+.navigation-controls {
+    -fx-background-color: #001F3F;
+    -fx-padding: 10px;
+    -fx-spacing: 20px;
+}
+
+.navigation-controls > ImageView {
+    -fx-cursor: hand;
+}
+
+.navigation-controls > ImageView:hover {
+    -fx-opacity: 0.7;
+}
